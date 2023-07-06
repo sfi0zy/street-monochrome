@@ -1,18 +1,28 @@
 # Street Monochrome
 
-Black and white style for the darktable.
+Black and white styles for the darktable.
+
+## Examples
+
+### Standard
 
 ![examples](examples.jpg)
 
-This style doesn't emulate any existing film, although you can find some parallels with the JCH StreetPan 400 or with the pushed Kodak Tri-X 400 film stocks.
+This is a high contrast style. It doesn't emulate any existing film, although you can find some parallels with the JCH StreetPan 400 or with the pushed Kodak Tri-X 400 film stocks. In most situations it'll work better for the underexposed images. Protect the highlights, embrace the shadows, and it'll work as intended.
+
+### F
+
+![examples](examples-f.jpg)
+
+The F version has the mask on the `rgb curve`. It reduces the overall contrast, but keeps the character. The blue tones are getting darker as well. In the result we can get the most dynamic range possible and save the details in both the shadows and the highlights. This style is good for more old-school documentary photography.
 
 ## Usage
 
-This is a high-contrast monochrome style for the darktable. It's designed to be applied in the **display-referred** workflow after the standard base curve of the camera, so technically it'll work with any camera with the slight differences in the dynamic range.
+These styles are designed to be applied in the **display-referred** workflow after the standard base curve of the camera, so technically they'll work with any camera with the slight differences in the dynamic range.
 
-If you're underexposing your photos and you need to tweak the exposure afterwards - use the `color balance rgb > global brilliance` slider. It'll change the contrast in the relation to the exposure changes, and everything will look more natural. It'll work more like in the push process. The standard exposure slider doesn't work in this way.
+If you need to tweak the exposure - use the `color balance rgb > global brilliance` slider instead of the one in the `exposure` module. It'll change the contrast in the relation to the exposure changes, and everything will look more natural.
 
-The additional LUT file is created to use the same style in the different editing programs or with JPEG files, where we don't need all these RAW-related modules. For obvious reasons it does not include the denoise settings, clarity and sharpening effects, so a little lack of contrast is expected in comparison with the standard style.
+The additional LUT files are created to use the same styles in the different editing programs, with JPEG files, or just to get the fast previews of the photos. For obvious reasons, the LUTs does not include the denoise settings, clarity and sharpening effects, so a little lack of microcontrast is expected in comparison with the normal styles.
 
 ## License
 
