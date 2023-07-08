@@ -10,11 +10,17 @@ Black and white styles for the darktable.
 
 This is a high contrast style. It doesn't emulate any existing film, although you can find some parallels with the JCH StreetPan 400 or with the pushed Kodak Tri-X 400 film stocks. In most situations it'll work better for the underexposed images. Protect the highlights, embrace the shadows, and it'll work as intended.
 
+### L
+
+![examples](examples-l.jpg)
+
+The L version makes the blues darker and keeps more details in the shadows and the highlights. In general, it makes the street photos look softer even though the technical contrast is almost the same as in the standard style. It makes the sky darker, it doesn't emphasize the objects in the foreground as much. It makes the reflections of the sky darker, they stand out less. It adds some details to the silhouettes, they are not as inky black as before. In the result, the images tend to look softer overall.
+
 ### F
 
 ![examples](examples-f.jpg)
 
-The F version has the mask on the `rgb curve`. It reduces the overall contrast, but keeps the character. The blue tones are getting darker as well. In the result we can get the most dynamic range possible and save the details in both the shadows and the highlights. This style is good for more old-school documentary photography.
+The F version has the noticeable 50% mask on the `rgb curve`. It reduces the overall contrast a lot, but keeps the character. The blue tones are getting darker as well. In the result we can get the most dynamic range possible and save the details in both the shadows and the highlights. This style is good for more old-school documentary photography.
 
 ## Usage
 
