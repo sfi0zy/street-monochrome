@@ -22,6 +22,10 @@ The L version makes the blues darker and keeps more details in the shadows and t
 
 The F version has the noticeable 50% mask on the `rgb curve`. It reduces the overall contrast a lot, but keeps the character. The blue tones are getting darker as well. In the result we can get the most dynamic range possible and save the details in both the shadows and the highlights. This style is good for more old-school documentary photography.
 
+### FN
+
+The FN style is the variant of the F style, but without any color corrections at all. It's just a flat style with the most natural color rendering.
+
 ## Usage
 
 These styles are designed to be applied in the **display-referred** workflow **after the standard base curve** of the camera, so technically they'll work with any camera with the slight differences in the dynamic range.
