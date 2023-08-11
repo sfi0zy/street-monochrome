@@ -20,7 +20,7 @@ The L version makes the blues darker and keeps more details in the shadows and t
 
 ![examples](examples-f.jpg)
 
-The F version has the noticeable 50% mask on the `rgb curve`. It reduces the overall contrast a lot, but keeps the character. The blue tones are getting darker as well. In the result we can get the most dynamic range possible and save the details in both the shadows and the highlights. This style is good for more old-school documentary photography.
+The F version has the noticeable 50% mask on the `rgb curve`. It reduces the overall contrast a lot, but keeps the character. The blue tones are getting darker as well. In the result we can get more dynamic range and save the details in both the shadows and the highlights. This style is good for more old-school documentary photography.
 
 ### FN (flat natural)
 
@@ -29,6 +29,18 @@ The FN style is the variant of the F style, but without any color corrections at
 ### LC, FC, FNC (clean)
 
 These versions don't use the mask on the rgb curve. The contrast is reduced by the standard `contrast` slider. In the result, we lose some of the darkness in the shadows and get some contrast in the midtones instead. The images will look more detailed, more clean overall. These styles can help in the situations when the standard L, F, FN styles give us too muddy results.
+
+### 0 (zero)
+
+This style includes every module that can't be saved as LUT. You can use one of the LUTs + this 0 style and the combination will work as a normal style.
+
+### Effects
+
+There are some additional effects here:
+
+#### + extra crispy
+
+This effect adds even more contrast to the highlights. It can be required in some cases of printing. But use it carefully - this kind of effect can create visible artifacts with outlines.
 
 ## Usage
 
