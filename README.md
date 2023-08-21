@@ -34,6 +34,10 @@ These versions don't use the mask on the rgb curve. The contrast is reduced by t
 
 This style includes every module that can't be saved as LUT. You can use one of the LUTs + this 0 style and the combination will work as a normal style.
 
+### 0SM
+
+This style includes the `rgb curve` + `monochrome` modules. Basically, it's the heart of the whole pack of these styles. It makes the character. If you want to use this curve somewhere else for some reason - this style is for you.
+
 ### Effects
 
 There are some additional effects here:
