@@ -40,15 +40,15 @@ The L version makes the blues darker and keeps more details in the shadows and t
 
 ![examples](examples-f.jpg)
 
-The F version has the noticeable 50% mask on the `rgb curve`. It reduces the overall contrast a lot, but keeps the character. The blue tones are getting darker as well. In the result we can get more dynamic range and save the details in both the shadows and the highlights. This style is good for more old-school documentary photography.
+The F version has the noticeable 50% mask on the `rgb curve`. It reduces the overall contrast a lot, but keeps the character. The blue tones are getting darker as well. In the result we can get more dynamic range and save the details in both the shadows and the highlights. This style is good for night photography and documentary photography.
 
 #### FN (flat natural)
 
 The FN style is the variant of the F style, but without any color corrections at all. It's just a flat style with the most natural color rendering.
 
-#### LC, FC, FNC (clean)
+#### CL, CF, CFN (clean)
 
-These versions don't use the mask on the rgb curve. The contrast is reduced by the standard `contrast` slider. In the result, we lose some of the darkness in the shadows and get some contrast in the midtones instead. The images will look more detailed, more clean overall. In some cases they will increase the exposure a bit. These styles can help in the situations when the standard L, F, FN styles give us too muddy results.
+These versions don't use the mask on the rgb curve. The contrast is reduced by the standard `contrast` slider. In the result, we lose some of the darkness in the shadows and get some contrast in the midtones instead. The images will look more detailed, more clean overall. These styles can help in the situations when the standard L, F, FN styles give us too muddy results.
 
 *Tip: If you need to increase the exposure - consider using the `color balance rgb > global brilliance` slider instead of the one in the `exposure` module. It'll change the contrast in the relation to the exposure changes, and everything will look more natural. The standard `exposure` module works if you need to fix the overexposed areas, but if you need to make a photo a little bit brighter - it can raise the shadows too much and change the character of the photo. The `global brilliance` slider doesn't affect the shadows as much.*
 
