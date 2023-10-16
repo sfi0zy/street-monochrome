@@ -56,6 +56,10 @@ These versions don't use the mask on the rgb curve. The contrast is reduced by t
 
 There are some additional effects here:
 
+#### + dodge and burn
+
+This effect turns on the shadows and highlights module and makes the shadows darker and the highlights lighter (by default this module does everything in the opposite direction). Since it has the softening radius, the overall effect is different from the other exposure-related modules. It works somewhat similar to the classical dodging and burning process. It forms the existing light in the scene. It's a bit rough, but it'll do the job in the most cases.
+
 #### + extra crispy
 
 This effect adds even more contrast to the highlights. It can be required in some cases of printing. But use it carefully - this kind of effect can create visible artifacts with outlines.
