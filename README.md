@@ -62,6 +62,14 @@ There are some additional effects here:
 
 This effect turns on the shadows and highlights module and makes the shadows darker and the highlights lighter (by default this module does everything in the opposite direction). Since it has the softening radius, the overall effect is different from the other exposure-related modules. It works somewhat similar to the classical dodging and burning process. It forms the existing light in the scene. It's a bit rough, but it'll do the job in the most cases.
 
+#### + cyanotype 5%, + sepia 3%
+
+These are the toning effects. They are barely noticeable, but they can make a great impact on the viewer. There is no recipe for every situation here, but in general the sepia effect tends to make the shadows look deeper and the photo look warmer overall, and the cyanotype tends to make the photos look clean, cold and modern.
+
+![examples](examples-toning.jpg)
+
+The left photo in the example has the cyanotype toning, the middle one is a 100% black and white image, the right one has the sepia toning.
+
 #### + extra crispy
 
 This effect adds even more contrast to the highlights. It can be required in some cases of printing. But use it carefully - this kind of effect can create visible artifacts with outlines.
