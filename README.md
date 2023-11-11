@@ -78,12 +78,6 @@ These are the toning effects. They are barely noticeable, but they can make a gr
 
 The left photo in the example has the cyanotype toning, the middle one is a 100% black and white image, the right one has the sepia toning.
 
-### Utils
-
-#### SM
-
-This style includes the `rgb curve` + `monochrome` modules. Basically, it's the heart of the whole pack of these styles. It makes the character. If you want to use this curve somewhere else for some reason - this style is for you. In the standard workflow you'll probably never need it, since it's included in every style in the step 1.
-
 ## License
 
 CC BY 4.0
