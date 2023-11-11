@@ -8,7 +8,7 @@ These styles are designed to be applied in the **display-referred** workflow aft
 
 *You can change the default workflow in the `settings > processing > auto apply pixel workflow defaults > display referred (legacy)`.*
 
-### Step 1. RAW.
+### Step 0. RAW.
 
 The styles in the first step are related to the RAW files.
 
@@ -22,11 +22,7 @@ This is the standard base. Some denoise, some sharpening, some other tweaks. Not
 
 This style turns off the `sharpen` module and uses the `contrast equalizer` to add some blur to the image. Not much, but enough to make the modern oversharpened image look more natural. If you don't have the AA filter on the sensor and want to make images look softer - this base is for you.
 
-#### SM
-
-This style includes the `rgb curve` + `monochrome` modules. Basically, it's the heart of the whole pack of these styles. It makes the character. If you want to use this curve somewhere else for some reason - this style is for you. In the standard workflow you'll probably never need it, since it's included in every style in the step 2.
-
-### Step 2. Look.
+### Step 1. Look.
 
 These styles create the look of the street monochrome. The additional LUT files are created to use the same styles in the different editing programs, with JPEG files, or just to get the fast previews of the photos. You can use the 0 + LUT and it'll work as good as the 0 + any of the styles in the step 2.
 
@@ -60,7 +56,7 @@ The FN style is the variant of the F style, but without any color corrections at
 
 These versions don't use the mask on the rgb curve. The contrast is reduced by the standard `contrast` slider. In the result, we lose some of the darkness in the shadows and get some contrast in the midtones instead. The images will look more detailed, more clean overall. These styles can help in the situations when the standard L, F, FN styles give us too muddy results.
 
-### Step 3. Effects.
+### Step 2. Effects.
 
 There are some additional effects here:
 
@@ -72,7 +68,7 @@ This effect turns on the shadows and highlights module and makes the shadows dar
 
 This effect adds even more contrast to the highlights. It can be required in some cases of printing. But use it carefully - this kind of effect can create visible artifacts with outlines.
 
-### Step 4. Toning.
+### Step 3. Toning.
 
 #### + cyanotype 5%, + sepia 3%
 
@@ -81,6 +77,12 @@ These are the toning effects. They are barely noticeable, but they can make a gr
 ![examples](examples-toning.jpg)
 
 The left photo in the example has the cyanotype toning, the middle one is a 100% black and white image, the right one has the sepia toning.
+
+### Utils
+
+#### SM
+
+This style includes the `rgb curve` + `monochrome` modules. Basically, it's the heart of the whole pack of these styles. It makes the character. If you want to use this curve somewhere else for some reason - this style is for you. In the standard workflow you'll probably never need it, since it's included in every style in the step 1.
 
 ## License
 
