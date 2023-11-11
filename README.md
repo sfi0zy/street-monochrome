@@ -86,6 +86,23 @@ These are the toning effects. They are barely noticeable, but they can make a gr
 The left photo in the example has the cyanotype toning, the middle one is a 100% black and white image, the right one has the sepia toning.
 
 
+## Recipes
+
+Here you'll find some recipes. They'll help you get the idea how to combine the styles to get the different results.
+
+### Warm Vintage
+
+0V + FN + dodge and burn + sepia 3%
+
+![examples](examples-vintage.jpg)
+
+### Icy Modern
+
+0 + S + extra crispy + cyanotype 5%
+
+![examples](examples-modern.jpg)
+
+
 ## License
 
 CC BY 4.0
