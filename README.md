@@ -12,9 +12,15 @@ These styles are designed to be applied in the **display-referred** workflow aft
 
 The styles in the first step are related to the RAW files.
 
-#### 0 (zero)
+These styles include every module that can't be saved as LUT - `demosaic`, `denoise`, `raw chromatic aberrations`, `contrast equalizer` and `sharpen`. One of them should be used as the base. They don't change the overall look of the images that much, but they can help with the texture. If your camera requires any special preparations - consider changing them. If you want to just get the look, but not to play with anything else - you can just skip this first step.
 
-This style includes every module that can't be saved as LUT - `demosaic`, `denoise`, `raw chromatic aberrations`, `contrast equalizer` and `sharpen`. This style should be used as the base. It doesn't change the overall look of the image that much, but it can help with the texture. If your camera requires any special preparations - consider changing it. If you want to just get the look, but not to play with anything else - you can just skip this first step.
+#### 0 (base)
+
+This is the standard base. Some denoise, some sharpening, some other tweaks. Nothing special. Makes the image cleaner in comparison to the default darktable settings.
+
+#### 0V (vintage base)
+
+This style turns off the `sharpen` module and uses the `contrast equalizer` to add some blur to the image. Not much, but enough to make the modern oversharpened image look more natural. If you don't have the AA filter on the sensor and want to make images look softer - this base is for you.
 
 #### SM
 
