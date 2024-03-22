@@ -74,6 +74,10 @@ This effect turns on the shadows and highlights module and makes the shadows dar
 
 This effect adds even more contrast to the highlights. It can be required in some cases of printing. But use it carefully - this kind of effect can create visible artifacts with outlines.
 
+#### + HDR
+
+The philosophy of this pack of styles is to embrace the shadows, embrace the darkness, so making HDR images is not the way to go. But if you need it - this effect will enable the HDR tone mapping for you. Best combined with the clean versions of styles.
+
 
 ### Step 3. Toning.
 
