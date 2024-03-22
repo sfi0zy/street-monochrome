@@ -5,16 +5,16 @@ Black and white darktable styles for street photographers.
 
 ## Usage
 
-These styles are designed to be applied in the **display-referred** workflow after the default workflow modules (after the base curve).
+These styles were created for the darktable v4. Although they include all sorts of modules, they are designed to be applied in the **display-referred** workflow after the default workflow modules (after the base curve). Because of that most of the styles can be used with the JPG files as well as RAW files.
 
-*You can change the default workflow in the `settings > processing > auto apply pixel workflow defaults > display referred (legacy)`.*
+*Tip: You can change the default workflow in the `settings > processing > auto apply pixel workflow defaults > display referred (legacy)`.*
 
 
 ### Step 0. RAW.
 
 The styles in the first step are related to the RAW files.
 
-These styles include every module that can't be saved as LUT - `demosaic`, `denoise`, `raw chromatic aberrations`, `contrast equalizer` and `sharpen`. One of them should be used as the base. They don't change the overall look of the images that much, but they can help with the texture. If your camera requires any special preparations - consider changing them. If you want to just get the look, but not to play with anything else - you can just skip this first step.
+These styles include modules that can't be saved as LUT - `demosaic`, `denoise`, `raw chromatic aberrations`, `contrast equalizer` and `sharpen`. One of them should be used as the base. They don't change the overall look of the images that much, but they can help with the texture. If your camera requires any special preparations - consider changing them. If you want to just get the look, but not to play with anything else - you can just skip this first step.
 
 #### 0 (base)
 
@@ -23,6 +23,8 @@ This is the standard base. Some denoise, some sharpening, some other tweaks. Not
 #### 0V (vintage base)
 
 This style turns off the `sharpen` module and uses the `contrast equalizer` to add some blur to the image. Not much, but enough to make the modern oversharpened image look more natural. If you don't have the AA filter on the sensor and want to make images look softer - this base is for you.
+
+*Tip: If you have an old computer and it has troubles working with these modules in real time - consider editing/retouching the photos first and enabling the base styles later.*
 
 
 ### Step 1. Look.
@@ -64,7 +66,7 @@ These versions don't use the mask on the rgb curve. The contrast is reduced by t
 
 ### Step 2. Effects.
 
-There are some additional effects here:
+There are some additional effects here. Due to their nature they cannot be saved as LUTs.
 
 #### + dodge and burn
 
@@ -77,6 +79,10 @@ This effect adds even more contrast to the highlights. It can be required in som
 #### + HDR
 
 The philosophy of this pack of styles is to embrace the shadows, embrace the darkness, so making HDR images is not the way to go. But if you need it - this effect will enable the HDR tone mapping for you. Best combined with the clean versions of styles.
+
+#### + calibration (RAW only)
+
+This effects sets the white balance to the D65 and uses the color calibration module to set the light source manually. Usually in black and white photography we don't care about the white balance that much, but if we have the set of images where auto white balance got out of control and everything feels a bit inconsistent - this can help.
 
 
 ### Step 3. Toning.
@@ -111,6 +117,6 @@ Here you'll find some recipes. They'll help you get the idea how to combine the 
 
 CC BY 4.0
 
-Copyright (c) 2023 Ivan Bogachev
+Copyright (c) 2024 Ivan Bogachev
 
 https://instagram.com/sfi0zy
