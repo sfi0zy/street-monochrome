@@ -29,7 +29,7 @@ This style turns off the `sharpen` module and uses the `contrast equalizer` to a
 
 ### Step 1. Look.
 
-These styles create the look of the street monochrome. The additional LUT files are created to use the same styles in the different editing programs, with JPEG files, or just to get the fast previews of the photos. You can use the 0 + LUT and it'll work as good as the 0 + any of the styles in the step 1.
+These styles create the look of the street monochrome. The additional LUT files are created to use the same styles in the different editing programs, with JPEG files, or just to get the fast previews of the photos.
 
 #### Standard
 
@@ -78,7 +78,7 @@ This effect creates a ND2 gradient at the bottom of the frame (75% if we count i
 
 #### + HDR
 
-The philosophy of this pack of styles is to embrace the shadows, embrace the darkness, so making HDR images is not the way to go. But if you need it - this effect will enable the HDR tone mapping for you. Best combined with the clean versions of styles. Because of the nature of the HDR tone mapping itself, this effect can produce weird artifacts sometimes. Use it carefully.
+The philosophy of this pack of styles is to embrace the shadows, embrace the darkness, so making HDR images is not the way to go. But if you need it - this effect will enable the HDR tone mapping for you. Because of the nature of the HDR tone mapping itself, this effect can produce weird artifacts sometimes. Use it carefully.
 
 
 ### Step 3. Toning.
