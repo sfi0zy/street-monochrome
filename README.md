@@ -16,11 +16,11 @@ The styles in the first step are related to the RAW files.
 
 These styles include modules that can't be saved as LUT - `demosaic`, `denoise`, `raw chromatic aberrations`, `contrast equalizer` and `sharpen`. One of them should be used as the base. They don't change the overall look of the images that much, but they can help with the texture. If your camera requires any special preparations - consider changing them. If you want to just get the look, but not to play with anything else - you can just skip this first step.
 
-#### 0 (base)
+#### Modern
 
 This is the standard base. Some denoise, some sharpening, some other tweaks. Nothing special. Makes the image cleaner in comparison to the default darktable settings.
 
-#### 0V (vintage base)
+#### Vintage
 
 This style turns off the `sharpen` module and uses the `contrast equalizer` to add some blur to the image. Not much, but enough to make the modern oversharpened image look more natural. If you don't have the AA filter on the sensor and want to make images look softer - this base is for you.
 
@@ -41,7 +41,7 @@ This is a high contrast style with a lot of blacks. It doesn't emulate any exist
 
 #### Landscape
 
-The Landscape version makes the blues darker and keeps more details in the shadows and the highlights. Usually it makes the street photos look softer even though the technical contrast is almost the same as in the standard style. It makes the sky darker, it doesn't emphasize the objects in the foreground as much. It makes the bright reflections of the sky darker, they stand out less. It adds some details to the silhouettes, they are not as inky black as before. In the result, the images tend to look softer overall.
+The landscape version makes the blues darker and keeps more details in the shadows and the highlights. Usually it makes the street photos look softer even though the technical contrast is almost the same as in the standard style. It makes the sky darker, it doesn't emphasize the objects in the foreground as much. It makes the bright reflections of the sky darker, they stand out less. It adds some details to the silhouettes, they are not as inky black as before. In the result, the images tend to look softer overall.
 
 ![examples](examples-landscape.jpg)
 
@@ -49,7 +49,7 @@ The Landscape version makes the blues darker and keeps more details in the shado
 
 #### Flat
 
-The Flat version has the noticeable 50% mask on the `rgb curve`. It reduces the overall contrast a lot, but keeps the character. The blue tones are getting darker as well. In the result we can get more dynamic range and save the details in both the shadows and the highlights.
+The flat version has the noticeable 50% mask on the `rgb curve`. It reduces the overall contrast a lot, but keeps the character. The blue tones are getting darker as well. In the result we can get more dynamic range and save the details in both the shadows and the highlights.
 
 ![examples](examples-flat.jpg)
 
@@ -60,25 +60,25 @@ This style is good for night photography and documentary photography. Usually, i
 
 There are some additional effects here. Due to their nature they cannot be saved as LUTs.
 
+#### + calibration (RAW only)
+
+This effects sets the white balance to the D65 and uses the color calibration module to set the light source manually. Usually in black and white photography we don't care about the white balance that much, but if we have the set of images where auto white balance got out of control and everything feels a bit inconsistent - this can help.
+
 #### + dodge and burn
 
 This effect turns on the shadows and highlights module and makes the shadows darker and the highlights lighter (by default this module does everything in the opposite direction). Since it has the softening radius, the overall effect is different from the other exposure-related modules. It works somewhat similar to the classical dodging and burning process. It forms the existing light in the scene. It's a bit rough, but it'll do the job in the most cases.
-
-#### + gradient ND2 bottom
-
-This effect creates a ND2 gradient at the bottom of the frame (75% if we count it from the top) and rotates it 180 degrees, so it makes the bottom darker. In street photography this effect comes in handy when the floor is too bright in comparison to the other objects in the scene. For some reason all the standard presets for the gradient module make the top part of the frame darker instead.
 
 #### + extra crispy
 
 This effect adds more contrast to the highlights. It can be required in some cases of printing. But use it carefully - this kind of effect can create visible artifacts with outlines.
 
+#### + gradient ND2 bottom
+
+This effect creates a ND2 gradient at the bottom of the frame (75% if we count it from the top) and rotates it 180 degrees, so it makes the bottom darker. In street photography this effect comes in handy when the floor is too bright in comparison to the other objects in the scene. For some reason all the standard presets for the gradient module make the top part of the frame darker instead.
+
 #### + HDR
 
 The philosophy of this pack of styles is to embrace the shadows, embrace the darkness, so making HDR images is not the way to go. But if you need it - this effect will enable the HDR tone mapping for you. Best combined with the clean versions of styles. Because of the nature of the HDR tone mapping itself, this effect can produce weird artifacts sometimes. Use it carefully.
-
-#### + calibration (RAW only)
-
-This effects sets the white balance to the D65 and uses the color calibration module to set the light source manually. Usually in black and white photography we don't care about the white balance that much, but if we have the set of images where auto white balance got out of control and everything feels a bit inconsistent - this can help.
 
 
 ### Step 3. Toning.
@@ -98,13 +98,13 @@ Here you'll find some recipes. They'll help you get the idea how to combine the 
 
 ### Warm Vintage
 
-0V + Flat + dodge and burn + sepia 3%
+vintage + flat + dodge and burn + sepia 3%
 
 ![examples](examples-vintage.jpg)
 
 ### Icy Modern
 
-0 + Standard + extra crispy + cyanotype 5%
+modern + standard + extra crispy + cyanotype 5%
 
 ![examples](examples-modern.jpg)
 
