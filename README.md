@@ -14,7 +14,7 @@ These styles were created for the darktable v4. Although they include all sorts 
 
 The styles in the first step are related to the RAW files.
 
-These styles include modules that can't be saved as LUT - `demosaic`, `denoise`, `raw chromatic aberrations`, `contrast equalizer` and `sharpen`. One of them should be used as the base. They don't change the overall look of the images that much, but they can help with the texture. If your camera requires any special preparations - consider changing them. If you want to just get the look, but not to play with anything else - you can just skip this first step.
+These styles include modules that can't be saved as LUT - `demosaic`, `denoise`, `white balance`, `color calibration`, `raw chromatic aberrations`, `contrast equalizer` and `sharpen`. One of them should be used as the base. They don't change the overall look of the images that much, but they can help with the texture. If your camera requires any special preparations - consider changing them. If you want to just get the look, but not to play with anything else - you can just skip this first step.
 
 #### Modern
 
@@ -59,10 +59,6 @@ This style is good for night photography and documentary photography. Usually, i
 ### Step 2. Effects.
 
 There are some additional effects here. Due to their nature they cannot be saved as LUTs.
-
-#### + calibration (RAW only)
-
-This effects sets the white balance to the D65 and uses the color calibration module to set the light source manually. Usually in black and white photography we don't care about the white balance that much, but if we have the set of images where auto white balance got out of control and everything feels a bit inconsistent - this can help.
 
 #### + dodge and burn
 
