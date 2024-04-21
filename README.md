@@ -68,17 +68,9 @@ This effects sets the white balance to the D65 and uses the color calibration mo
 
 This effect turns on the shadows and highlights module and makes the shadows darker and the highlights lighter (by default this module does everything in the opposite direction). Since it has the softening radius, the overall effect is different from the other exposure-related modules. It works somewhat similar to the classical dodging and burning process. It forms the existing light in the scene. It's a bit rough, but it'll do the job in the most cases.
 
-#### + extra crispy
-
-This effect adds more contrast to the highlights. It can be required in some cases of printing. But use it carefully - this kind of effect can create visible artifacts with outlines.
-
 #### + gradient ND2 bottom
 
 This effect creates a ND2 gradient at the bottom of the frame (75% if we count it from the top) and rotates it 180 degrees, so it makes the bottom darker. In street photography this effect comes in handy when the floor is too bright in comparison to the other objects in the scene. For some reason all the standard presets for the gradient module make the top part of the frame darker instead.
-
-#### + HDR
-
-The philosophy of this pack of styles is to embrace the shadows, embrace the darkness, so making HDR images is not the way to go. But if you need it - this effect will enable the HDR tone mapping for you. Because of the nature of the HDR tone mapping itself, this effect can produce weird artifacts sometimes. Use it carefully.
 
 
 ### Step 3. Toning.
@@ -104,7 +96,7 @@ vintage + flat + dodge and burn + sepia 3%
 
 ### Icy Modern
 
-modern + standard + extra crispy + cyanotype 5%
+modern + standard + cyanotype 5%
 
 ![examples](examples-modern.jpg)
 
