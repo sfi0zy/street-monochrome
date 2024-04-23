@@ -14,7 +14,7 @@ These styles were created for the darktable v4. Although they include all sorts 
 
 The styles in the first step are related to the RAW files.
 
-These styles include modules that can't be saved as LUT - `demosaic`, `denoise`, `white balance`, `color calibration`, `raw chromatic aberrations`, `contrast equalizer` and `sharpen`. One of them should be used as the base. They don't change the overall look of the images that much, but they can help with the texture. If your camera requires any special preparations - consider changing them. If you want to just get the look, but not to play with anything else - you can just skip this first step.
+These styles include modules that can't be saved as LUT - `demosaic`, `denoise`, `white balance`, `color calibration`, `sigmoid`, `raw chromatic aberrations`, `contrast equalizer` and `sharpen`. One of them should be used as the base. They don't change the overall look of the images that much, but they can help with the texture. If your camera requires any special preparations - consider changing them. If you want to just get the look, but not to play with anything else - you can just skip this first step.
 
 #### Modern
 
