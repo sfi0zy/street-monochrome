@@ -43,7 +43,7 @@ This is a high contrast style with a lot of blacks. It doesn't emulate any exist
 
 #### Landscape
 
-The landscape version makes the blues darker and keeps more details in the shadows and the highlights. Usually it makes the street photos look softer even though the technical contrast is almost the same as in the standard style. It makes the sky darker, it doesn't emphasize the objects in the foreground as much. It makes the bright reflections of the sky darker, they stand out less. It adds some details to the silhouettes, they are not as inky black as before. In the result, the images tend to look softer overall.
+The landscape version makes the blues darker and keeps more details in the shadows and the highlights. Usually it makes the street photos look softer even though the technical contrast is almost the same as in the standard style. You may think about this style like it's a standard style with a red filter. Although it doesn't work like the real filter, the overall effect is similar in many ways. It makes the sky darker, it doesn't emphasize the objects in the foreground as much. It makes the bright reflections of the sky darker, they stand out less. It adds some details to the silhouettes, they are not as inky black as before. In the result, the images tend to look softer overall.
 
 ![examples](examples/landscape.jpg)
 
@@ -51,7 +51,7 @@ The landscape version makes the blues darker and keeps more details in the shado
 
 #### Flat
 
-The flat version has the noticeable 50% mask on the `rgb curve`. It reduces the overall contrast a lot, but keeps the character. It's somewhat similar to the discontinued Agfa APX 25 film. The blue tones are getting darker as well. In the result we can get more dynamic range and save the details in both the shadows and the highlights.
+The flat version has the noticeable 50% mask on the `rgb curve`. It reduces the overall contrast a lot, but keeps the character. It's somewhat similar to the discontinued Agfa APX 25 film. The blue tones are getting darker, like in the landscape style. In the result we can get more dynamic range and save the details in both the shadows and the highlights.
 
 ![examples](examples/flat.jpg)
 
