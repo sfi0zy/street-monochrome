@@ -31,13 +31,15 @@ This style turns off the `sharpen` module and uses the `contrast equalizer` to a
 
 These styles create the look of the street monochrome. The additional LUT files are created to use the same styles in the different editing programs, with JPEG files, or just to get the fast previews of the photos.
 
+The looks are sorted from the brightest one to the darkest.
+
 #### Standard
 
 This is a high contrast style with a lot of blacks. It doesn't emulate any existing film, although you can find some parallels with the JCH StreetPan 400 or with the pushed Kodak Tri-X 400 film stocks. In most situations it'll work better for the underexposed images. Protect the highlights, embrace the shadows, and it'll work as intended. Don't be afraid to lower the exposure.
 
 ![examples](examples/standard.jpg)
 
-*Tip: If you need to increase the exposure - consider using the `color balance rgb > global brilliance` slider instead of the one in the `exposure` module. It'll change the contrast in the relation to the exposure changes, and everything will look more natural. The standard `exposure` module works if you need to fix the overexposed areas, but if you need to make a photo a little bit brighter - it can raise the shadows too much and change the character of the photo. The `global brilliance` slider doesn't affect the shadows as much.*
+*Tip: If you need to increase the exposure - consider using the `color balance rgb > global brilliance` slider instead of the one in the `exposure` module.*
 
 #### Landscape
 
@@ -53,7 +55,15 @@ The flat version has the noticeable 50% mask on the `rgb curve`. It reduces the 
 
 ![examples](examples/flat.jpg)
 
-This style is good for night photography and documentary photography. Usually, it works well with the vintage base.
+In some cases this style may look too flat, but it's a good choice for night photography and old school documentary photography. Usually, it works well with the vintage base.
+
+#### Eerie
+
+The eerie version pushes the overall balance towards the dark grey tones. It adds some Leica Monochrom vibes while keeping some of the character of the street monochrome styles. This is a good choice for the moody foggy days, dark parks, and, in some cases, the sunny days as well. It'll help to deal with the harsh sunlight. If the standard and landscape styles feel way too contrasty, and the flat looks burned out - eerie is a way to go.
+
+![examples](examples/eerie.jpg)
+
+*Tip: This style can be a good starting point to play with the `brilliance` sliders in the `color balance rgb` module.*
 
 
 ### Step 2. Effects.
