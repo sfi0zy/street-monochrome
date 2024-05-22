@@ -51,7 +51,7 @@ The landscape version makes the blues darker and keeps more details in the shado
 
 #### Flat
 
-The flat version has the noticeable 50% mask on the `rgb curve`. It reduces the overall contrast a lot, but keeps the character. The blue tones are getting darker as well. In the result we can get more dynamic range and save the details in both the shadows and the highlights.
+The flat version has the noticeable 50% mask on the `rgb curve`. It reduces the overall contrast a lot, but keeps the character. It's somewhat similar to the discontinued Agfa APX 25 film. The blue tones are getting darker as well. In the result we can get more dynamic range and save the details in both the shadows and the highlights.
 
 ![examples](examples/flat.jpg)
 
