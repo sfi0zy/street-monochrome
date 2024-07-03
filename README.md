@@ -14,15 +14,15 @@ These styles were created for the darktable v4. Although they include all sorts 
 
 The styles in the first step are related to the RAW files.
 
-These styles include modules that can't be saved as LUT - `demosaic`, `denoise`, `white balance`, `color calibration`, `sigmoid`, `raw chromatic aberrations`, `contrast equalizer` and `sharpen`. One of them should be used as the base. They don't change the overall look of the images that much, but they can help with the texture. If your camera requires any special preparations - consider changing them. If you want to just get the look, but not to play with anything else - you can just skip this first step.
+These styles include modules that can't be saved as LUT - `demosaic`, `denoise`, `sigmoid`, `raw chromatic aberrations`, `contrast equalizer` and `sharpen`. One of them should be used as the base. They don't change the overall look of the images that much, but they can help with the texture. If your camera requires any special preparations - consider changing them. If you want to just get the look, but not to play with anything else - you can just skip this first step.
 
 #### Modern
 
-This is the standard base. Some denoise, some sharpening, some other tweaks. Nothing special. Makes the image cleaner in comparison to the default darktable settings.
+This is the standard base. Some denoise, some sharpening, some other tweaks. Nothing special. Makes the image a bit cleaner in comparison to the default darktable settings.
 
 #### Vintage
 
-This style turns off the `sharpen` module and uses the `contrast equalizer` to add some blur to the image. Not much, but enough to make the modern oversharpened image look more natural. If you don't have the AA filter on the sensor and want to make images look softer - this base is for you.
+This style turns off the `sharpen` module and uses the `contrast equalizer` to add some blur to the image. Not much, but enough to make the modern oversharpened image look more natural.
 
 *Tip: If you have an old computer and it has troubles working with these modules in real time - consider editing/retouching the photos first and enabling the base styles later.*
 
