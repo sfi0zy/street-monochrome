@@ -20,9 +20,13 @@ These styles include modules that can't be saved as LUT - `demosaic`, `denoise`,
 
 This is the standard base. Some denoise, some sharpening, some other tweaks. Nothing special. Makes the image a bit cleaner in comparison to the default darktable settings.
 
+#### Muddy
+
+This base is for the photos created in the darkness. ISO 51200 kind of darkness. We would not expect any fine details here. The modern base can look a bit edgy because of the random white pixels and not detailed enough at the same time. This style changes the `demosaic` algorithm and the `denoise` settings in order to get the different kind of grain. It's deep, but smooth, without any sharp edges. In normal scenarios, it'll make photos look very messy, but when we work with the insanely high ISO it does the opposite and makes them look cleaner and more detailed in some cases.
+
 #### Vintage
 
-This style turns off the `sharpen` module and uses the `contrast equalizer` to add some blur to the image. Not much, but enough to make the modern oversharpened image look more natural.
+This style turns off the `sharpen` module and uses the `contrast equalizer` to add some blur to the image. Not much, but enough to make the modern oversharpened image look more soft and natural.
 
 *Tip: If you have an old computer and it has troubles working with these modules in real time - consider editing/retouching the photos first and enabling the base styles later.*
 
