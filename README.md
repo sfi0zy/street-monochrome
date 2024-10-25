@@ -76,7 +76,9 @@ There are some additional effects here. Due to their nature they cannot be saved
 
 #### + dodge and burn
 
-This effect turns on the shadows and highlights module and makes the shadows darker and the highlights lighter (by default this module does everything in the opposite direction). Since it has the softening radius, the overall effect is different from the other exposure-related modules. It works somewhat similar to the classical dodging and burning process. It forms the existing light in the scene. It's a bit rough, but it'll do the job in the most cases.
+This effect turns on the `shadows and highlights` module and makes the shadows darker and the highlights lighter (by default this module does everything in the opposite direction). Since it has the softening radius, the overall effect is different from the other exposure-related modules. It works somewhat similar to the classical dodging and burning process. It forms the existing light in the scene. It's a bit rough, but it'll do the job in the most cases.
+
+*Tip: If you have a scene with a lot of details and shapes, like tree branches, try to play with the `radius` and `compress` sliders of the `shadows and highlights` module. Smaller radius and compress value less than 50% can help to form those shapes in a couple of clicks.*
 
 #### + gradient ND2 bottom
 
