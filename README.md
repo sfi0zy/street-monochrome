@@ -22,7 +22,7 @@ This is the standard base. Some denoise, some sharpening, some other tweaks. Not
 
 #### Muddy
 
-This base is for the photos created in the darkness. ISO 51200 kind of darkness. We would not expect any fine details here. The modern base can look a bit edgy because of the random white pixels and not detailed enough at the same time. This style changes the `demosaic` algorithm and the `denoise` settings in order to get the different kind of grain. It's deep, but smooth, without any sharp edges. In normal scenarios, it'll make photos look very messy, but when we work with the insanely high ISO it does the opposite and makes them look cleaner and more detailed in some cases.
+This base is for the photos created in the darkness. ISO 51200 kind of darkness. We would not expect any fine details here. The modern base can look a bit edgy because of the random white pixels and not detailed enough at the same time. This style changes the `demosaic` algorithm and the `denoise` settings in order to get the different kind of grain. It's deep, but smooth, without any sharp edges. In normal scenarios, it'll make photos look very messy, but when we work with the insanely high ISO it does the opposite and makes them look cleaner overall and more detailed in some cases.
 
 #### Vintage
 
@@ -33,7 +33,9 @@ This style turns off the `sharpen` module and uses the `contrast equalizer` to a
 
 ### Step 1. Look.
 
-These styles create the look of the street monochrome. The additional LUT files are created to use the same styles in the different editing programs, with JPEG files, or just to get the fast previews of the photos.
+These styles create the look of the street monochrome. All of them utilize the same set of modules - `color balance rgb`, `rgb curve`, `color zones` and `monochrome`. We can switch between them easily.
+
+The additional LUT files are created to use the same styles in the different editing programs, with JPEG files, or just to get the fast previews of the photos.
 
 The looks are sorted from the brightest one to the darkest.
 
@@ -82,14 +84,14 @@ This effect turns on the `shadows and highlights` module and makes the shadows d
 
 #### + gradient ND2 bottom
 
-This effect creates a ND2 gradient at the bottom of the frame (75% if we count it from the top) and rotates it 180 degrees, so it makes the bottom darker. In street photography this effect comes in handy when the floor is too bright in comparison to the other objects in the scene. For some reason all the standard presets for the gradient module make the top part of the frame darker instead.
+This effect creates a ND2 gradient at the bottom of the frame (75% if we count it from the top) and rotates it 180 degrees, so it makes the bottom darker. In street photography this effect comes in handy when the floor is too bright in comparison to the other objects in the scene. For some reason all the standard presets for the `graduated density` module make the top part of the frame darker instead.
 
 
 ### Step 3. Toning.
 
 #### + cyanotype 5%, + sepia 3%
 
-These are the toning effects. They are barely noticeable, but they can make a great impact on the viewer. There is no recipe for every situation here, but in general the sepia effect tends to make the shadows look deeper and the photo look warmer overall, and the cyanotype tends to make the photos look clean, cold and modern.
+These are the toning effects. They use the `split-toning` module and are applied afterwards on top of the monochrome image. They are barely noticeable, but they can make a great impact on the viewer. There is no recipe for every situation here, but in general the sepia effect tends to make the shadows look deeper and the photo look warmer overall, and the cyanotype tends to make the photos look clean, cold and modern.
 
 ![examples](examples/toning.jpg)
 
