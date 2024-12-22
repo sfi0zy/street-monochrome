@@ -5,30 +5,9 @@ Black and white darktable styles for street photographers.
 
 ## Usage
 
-These styles were created for the darktable v4. Although they include all sorts of modules, they are designed to be applied in the **display-referred** workflow after the default workflow modules (after the base curve). Because of that most of the styles can be used with the JPG files as well as RAW files.
+These styles were tested in the darktable v4 and v5. Although they include all sorts of modules, they are designed to be applied in the **display-referred** workflow after the default workflow modules (after the base curve). Because of that most of the styles can be used with the JPG files as well as RAW files.
 
 *Tip: You can change the default workflow in the `settings > processing > auto apply pixel workflow defaults > display referred (legacy)`.*
-
-
-### Step 0. RAW.
-
-The styles in the first step are related to the RAW files.
-
-These styles include modules that can't be saved as LUT - `demosaic`, `denoise`, `sigmoid`, `raw chromatic aberrations`, `contrast equalizer` and `sharpen`. One of them should be used as the base. They don't change the overall look of the images that much, but they can help with the texture. If your camera requires any special preparations - consider changing them. If you want to just get the look, but not to play with anything else - you can just skip this first step.
-
-#### Modern
-
-This is the standard base. Some denoise, some sharpening, some other tweaks. Nothing special. Makes the image a bit cleaner in comparison to the default darktable settings.
-
-#### Muddy
-
-This base is for the photos created in the darkness. ISO 51200 kind of darkness. We would not expect any fine details here. The modern base can look a bit edgy because of the random white pixels and not detailed enough at the same time. This style changes the `demosaic` algorithm and the `denoise` settings in order to get the different kind of grain. It's deep, but smooth, without any sharp edges. In normal scenarios, it'll make photos look very messy, but when we work with the insanely high ISO it does the opposite and makes them look cleaner overall and more detailed in some cases.
-
-#### Vintage
-
-This style turns off the `sharpen` module and uses the `contrast equalizer` to add some blur to the image. Not much, but enough to make the modern oversharpened image look more soft and natural.
-
-*Tip: If you have an old computer and it has troubles working with these modules in real time - consider editing/retouching the photos first and enabling the base styles later.*
 
 
 ### Step 1. Look.
@@ -74,7 +53,7 @@ The eerie version pushes the overall balance towards the dark grey tones. It add
 
 ### Step 2. Effects.
 
-There are some additional effects here. Due to their nature they cannot be saved as LUTs.
+There are some additional effects here.
 
 #### + dodge and burn
 
@@ -86,9 +65,6 @@ This effect turns on the `shadows and highlights` module and makes the shadows d
 
 This effect creates a ND2 gradient at the bottom of the frame (75% if we count it from the top) and rotates it 180 degrees, so it makes the bottom darker. In street photography this effect comes in handy when the floor is too bright in comparison to the other objects in the scene. For some reason all the standard presets for the `graduated density` module make the top part of the frame darker instead.
 
-
-### Step 3. Toning.
-
 #### + cyanotype 5%, + sepia 3%
 
 These are the toning effects. They use the `split-toning` module and are applied afterwards on top of the monochrome image. They are barely noticeable, but they can make a great impact on the viewer. There is no recipe for every situation here, but in general the sepia effect tends to make the shadows look deeper and the photo look warmer overall, and the cyanotype tends to make the photos look clean, cold and modern.
@@ -98,19 +74,42 @@ These are the toning effects. They use the `split-toning` module and are applied
 The left photo in the example has the cyanotype toning, the middle one is a 100% black and white image, the right one has the sepia toning.
 
 
+### Step 3 (optional). RAW Texture.
+
+These styles are related to the RAW files.
+
+These styles include modules that can't be saved as LUT - `demosaic`, `denoise`, `sigmoid`, `raw chromatic aberrations`, `contrast equalizer` and `sharpen`. One of them should be used as the base for the RAW files. They don't change the overall look of the images that much, but they can help with the texture. If your camera requires any special preparations - consider changing them.
+
+*Tip: The algorithms in this step are quite demanding. If you have an old computer and it has troubles working with these modules in real time - consider editing/retouching the photos first and enabling these styles at the end.*
+
+#### Modern
+
+This is the standard base. Some denoise, some sharpening, some other tweaks. Nothing special. Makes the image a bit cleaner in comparison to the default darktable settings.
+
+*Tip: The black point can be moved a bit here and it will cause underexposure. Be aware of that!*
+
+#### Vintage
+
+This style turns off the `sharpen` module and uses the `contrast equalizer` to add some blur to the image. Not much, but enough to make the modern oversharpened image look more soft and natural.
+
+#### Muddy
+
+This base is for the photos created in the darkness. ISO 51200 kind of darkness. We would not expect any fine details here. The modern base can look a bit edgy because of the random white pixels and not detailed enough at the same time. This style changes the `demosaic` algorithm and the `denoise` settings in order to get the different kind of grain. It's deep, but smooth, without any sharp edges. In normal scenarios, it'll make photos look very messy, but when we work with the insanely high ISO it does the opposite and makes them look cleaner overall and more detailed in some cases.
+
+
 ## Recipes
 
 Here you'll find some recipes. They'll help you get the idea how to combine the styles to get the different results.
 
 ### Warm Vintage
 
-vintage + flat + dodge and burn + sepia 3%
+flat + dodge and burn + sepia 3% + vintage
 
 ![examples](examples/vintage.jpg)
 
 ### Icy Modern
 
-modern + standard + cyanotype 5%
+standard + cyanotype 5% + modern
 
 ![examples](examples/modern.jpg)
 
