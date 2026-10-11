@@ -116,7 +116,7 @@ standard + cyanotype 5% + modern
 
 ## Layout
 
-We don't really need all of the darktable modules to be on the screen while using Street Monochrome. Some of them can come in handy - `crop`, `rotate and perspective`, `exposure`, `retouch`, maybe `grain`. But the rest of them are not that useful. In order to make work easier, you may choose to use a custom module layout. It'll have just two tabs - one for active modules, they will be added to the list automatically, and a second one for a short list of some other modules, complementing them.
+We don't really need all of the darktable modules to be on the screen while using Street Monochrome. Some of them can come in handy - `crop`, `rotate and perspective`, `exposure`, `retouch`, `vignetting`, maybe `grain`. But the rest of them are not that useful. In order to make work easier, you may choose to use a custom module layout. It'll have just two tabs - one for active modules, they will be added to the list automatically, and a second one for a short list of some other modules, complementing them.
 
 To import this layout, go to `preferences > presets > modulegroups`. You'll see all the layouts you have. Use the `import` button to import the Street Monochrome layout from `./presets/modulegroups` directory. It'll be shown there. You can always choose a layout, edit or remove them in the menu of the `modulegroups` module.
 
