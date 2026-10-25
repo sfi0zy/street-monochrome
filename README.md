@@ -65,14 +65,6 @@ This effect turns on the `shadows and highlights` module and makes shadows darke
 
 This effect creates an ND2 gradient at the bottom of the frame (75% if we count it from the top) and rotates it 180 degrees, so it makes the bottom darker. In street photography, this effect comes in handy when the floor is too bright in comparison to other objects in the scene. For some reason, all the standard presets for the `graduated density` module make the top part of the frame darker instead.
 
-#### + cyanotype 5%, + sepia 3%
-
-These are toning effects. They use the `split-toning` module and are applied afterwards, on top of the monochrome image. They are barely noticeable, but they can make a great impact on the viewer. There is no recipe for every situation here, but in general the sepia effect tends to make shadows look deeper and make photos look warmer overall, and the cyanotype tends to make photos look clean, cold and modern.
-
-![examples](examples/toning.jpg)
-
-The left photo in this example has a cyanotype toning, the middle one is a 100% black and white image, the right one has a sepia toning.
-
 
 ### Step 3 (optional). RAW Texture.
 
@@ -96,6 +88,16 @@ This style turns off the `sharpen` module and uses the `contrast equalizer` to a
 
 This base is for photos created in darkness. ISO 51200 kind of darkness. We would not expect any fine details here. The modern base can look a bit edgy because of the random white pixels and not detailed enough at the same time. This style changes the `demosaic` algorithm and the `denoise` settings in order to get a different kind of grain. It's deep, but smooth, without any sharp edges. In normal scenarios, it'll make photos look very messy, but when we work with insanely high ISO, it does the opposite and makes them look cleaner and more detailed in some cases.
 
+
+### Step 4 (optional). Toning.
+
+#### + cyanotype 5%, + sepia 3%
+
+These are toning effects. They use the `split-toning` module and are applied afterwards, on top of the monochrome image. They are barely noticeable, but they can make a great impact on the viewer. There is no recipe for every situation here, but in general the sepia effect tends to make shadows look deeper and make photos look warmer overall, and the cyanotype tends to make photos look clean, cold and modern.
+
+![examples](examples/toning.jpg)
+
+The left photo in this example has a cyanotype toning, the middle one is a 100% black and white image, the right one has a sepia toning.
 
 ## Recipes
 
