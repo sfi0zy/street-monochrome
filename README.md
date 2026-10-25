@@ -65,6 +65,9 @@ This effect turns on the `shadows and highlights` module and makes shadows darke
 
 This effect creates an ND2 gradient at the bottom of the frame (75% if we count it from the top) and rotates it 180 degrees, so it makes the bottom darker. In street photography, this effect comes in handy when the floor is too bright in comparison to other objects in the scene. For some reason, all the standard presets for the `graduated density` module make the top part of the frame darker instead.
 
+#### + glow
+
+This effect is like a Black Mist filter of sorts. It uses a `haze removal` tool with some masks to add a subtle glow to the highlights while keeping deep shadows intact.
 
 ### Step 3 (optional). RAW Texture.
 
